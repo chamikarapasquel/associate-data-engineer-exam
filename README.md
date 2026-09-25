@@ -69,7 +69,7 @@ flowchart TD
 ├── requirements.txt          # Pinned Python dependencies
 ├── run_pipeline.py           # Single CLI command to execute the end-to-end pipeline
 ├── aws/
-│   └── iam_policy.json       # IAM least-privilege policy for S3 bucket access
+│   └── chamikara-sales-pipeline-2026.json       # IAM least-privilege policy for S3 bucket access
 ├── data/
 │   ├── raw/                  # 13,125 raw synthetic dirty records
 │   ├── processed/            # Cleaned data output artifacts
