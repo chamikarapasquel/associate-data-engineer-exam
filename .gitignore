@@ -19,3 +19,8 @@ data/rejected/
 # IDE files
 .vscode/
 .idea/
+
+# Local Video Presentation Scripts & PDF Guides (do not push to GitHub)
+PRESENTATION_SCRIPT.md
+*.pdf
+docs/

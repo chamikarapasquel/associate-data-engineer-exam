@@ -8,7 +8,7 @@
         "s3:ListBucket",
         "s3:GetBucketLocation"
       ],
-      "Resource": "arn:aws:s3:::associate-data-engineer-pipeline-bucket"
+      "Resource": "arn:aws:s3:::chamikara-sales-pipeline-2026"
     },
     {
       "Sid": "AllowObjectOperationsUnderPrefixes",
@@ -19,9 +19,9 @@
         "s3:AbortMultipartUpload"
       ],
       "Resource": [
-        "arn:aws:s3:::associate-data-engineer-pipeline-bucket/raw/*",
-        "arn:aws:s3:::associate-data-engineer-pipeline-bucket/processed/*",
-        "arn:aws:s3:::associate-data-engineer-pipeline-bucket/backup/*"
+        "arn:aws:s3:::chamikara-sales-pipeline-2026/raw/*",
+        "arn:aws:s3:::chamikara-sales-pipeline-2026/processed/*",
+        "arn:aws:s3:::chamikara-sales-pipeline-2026/backup/*"
       ]
     }
   ]
